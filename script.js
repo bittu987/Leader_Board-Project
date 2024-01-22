@@ -99,7 +99,7 @@ function refreshList() {
 
         incrementButton.innerHTML = '+5';
         decrementButton.innerHTML = '-5';
-        deleteButton.innerHTML ='<i class="fa-solid fa-trash"></i>';
+        deleteButton.innerHTML ='Delete';
 
         incrementButton.setAttribute('onclick', `increment5(${index})`);
         decrementButton.setAttribute('onclick', `decrement5(${index})`);
